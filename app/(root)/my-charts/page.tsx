@@ -1,6 +1,6 @@
 'use client'
 import React from 'react'
-import { useQuery } from "convex/react";
+// import { useQuery } from "convex/react";
 import { useUser } from "@clerk/nextjs";
 
 const Home = () => {

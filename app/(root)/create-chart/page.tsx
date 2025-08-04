@@ -1,6 +1,6 @@
 'use client';
-import React, { useEffect, useState, ChangeEvent } from "react";
-import { Star, Moon, Sun, Calendar, Clock, MapPin, AlertTriangle, Info, BookOpen } from 'lucide-react';
+import React, {  useState, ChangeEvent } from "react";
+import { Star,  Sun, Calendar, Clock, MapPin, AlertTriangle, Info, BookOpen } from 'lucide-react';
 import { useMutation } from "convex/react";
 import { api } from "@/convex/_generated/api";
 
