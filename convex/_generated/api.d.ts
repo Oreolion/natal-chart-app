@@ -14,6 +14,8 @@ import type {
   FunctionReference,
 } from "convex/server";
 import type * as charts from "../charts.js";
+import type * as file from "../file.js";
+import type * as http from "../http.js";
 import type * as users from "../users.js";
 
 /**
@@ -26,6 +28,8 @@ import type * as users from "../users.js";
  */
 declare const fullApi: ApiFromModules<{
   charts: typeof charts;
+  file: typeof file;
+  http: typeof http;
   users: typeof users;
 }>;
 export declare const api: FilterApi<

@@ -15,9 +15,9 @@ const Navbar = () => {
       <div className={`${styles.logo} ${styles.link}`}>
         <Link href="/">
           <h3 className={styles.h3}>
-            <span className={styles.span}>Collab</span>
+            <span className={styles.span}>Read</span>
             <span className="text-red-600 font-bold bg-slate-200">@</span>
-            <span className="text-yellow-300">RT</span>
+            <span className="text-yellow-300">Astra</span>
           </h3>
         </Link>
       </div>

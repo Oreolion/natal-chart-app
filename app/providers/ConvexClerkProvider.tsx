@@ -40,7 +40,7 @@ const AuthRedirect = ({ children }: { children: ReactNode }) => {
   
     if (isSignedIn && (pathname === '/sign-in' || pathname === '/sign-up' || pathname === '/')) {
       // If signed in and on sign-in or sign-up page, redirect to dashboard
-      router.push('/dashboard');
+      router.push('/my-charts');
     }
   
     return <>{children}</>;

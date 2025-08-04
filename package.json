@@ -16,6 +16,7 @@
     "next": "15.3.2",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
+    "svix": "^1.66.0",
     "swisseph": "^0.5.17"
   },
   "devDependencies": {
