@@ -339,7 +339,7 @@ const Home: React.FC = () => {
             } else {
                 setError('Failed to calculate chart: No chart data returned.');
             }
-        } catch (e: any) {
+        } catch (e ) {
             console.error("Error calculating chart:", e);
             setError(`Error calculating chart: ${e.message}`);
         } finally {
